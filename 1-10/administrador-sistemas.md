@@ -1,4 +1,4 @@
-3. ¿Qué hace un administrador de sistemas?
+## 3. ¿Qué hace un administrador de sistemas?
 Un administrador de sistemas es responsable de la instalación, configuración, mantenimiento y monitoreo de sistemas informáticos y redes. Entre sus tareas están:
 
 - Administrar servidores, bases de datos y redes.

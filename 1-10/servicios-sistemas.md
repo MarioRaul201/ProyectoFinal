@@ -1,4 +1,4 @@
-4. Servicios del sistema operativo
+## 4. Servicios del sistema operativo
 Un sistema operativo (SO) proporciona servicios esenciales que incluyen:
 
 - Gestión de procesos: Control del uso del CPU y coordinación entre procesos.
