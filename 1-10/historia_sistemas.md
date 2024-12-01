@@ -1,37 +1,48 @@
 ## 2. Historia, generaciones y evolución de los sistemas operativos
-Los sistemas operativos han evolucionado significativamente desde sus inicios, adaptándose a las necesidades cambiantes de hardware, software y usuarios. La evolución de los sistemas operativos se puede analizar en cuatro generaciones principales:
+1. Primera Generación (Década de 1940 - 1950): Sistemas sin sistema operativo
 
+- Programación en lenguaje de máquina.
+- Operadores controlaban directamente la computadora.
+- No existía un concepto de "sistema operativo".
+- Ejemplo: ENIAC y UNIVAC.
 
-### Primera generación (1940-1950) - Computadoras de tubos de vacío y sistemas sin sistema operativo:
+2. Segunda Generación (Década de 1950 - 1960): Sistemas por lotes (Batch)
 
-Durante esta época, las computadoras no contaban con un sistema operativo. Los programas se ejecutaban directamente en el hardware, y el control se realizaba a través de tableros de control y switches.
-Las computadoras de esta época eran grandes, costosas y complejas, y solo podían ejecutar una tarea a la vez. La programación se hacía en lenguaje máquina, y los recursos eran utilizados de forma manual.
+- Los programas se ejecutaban en "lotes", uno tras otro, sin interacción con el usuario.
+- Uso de tarjetas perforadas para entrada y salida.
+- Ejemplo: IBM 704.
+3. Tercera Generación (Década de 1960 - 1970): Multiprogramación y tiempo compartido
 
-### Segunda generación (1950-1965) - Sistemas de procesamiento por lotes
+- Introducción de la multiprogramación: varios programas cargados en memoria al mismo tiempo.
+- Aparición de sistemas operativos más avanzados como UNIX.
+- Ejemplo: IBM System/360, Multics.
+4. Cuarta Generación (Década de 1970 - 1990): Microcomputadoras
 
-En esta generación surgieron los primeros sistemas operativos que permitían el procesamiento por lotes. Los trabajos se agrupaban en lotes y se ejecutaban secuencialmente para aprovechar al máximo el tiempo de la CPU.
-Estos sistemas no permitían la interacción directa del usuario con la computadora. En lugar de ello, los programadores entregaban sus trabajos (tarjetas perforadas o cinta) a un operador, quien los cargaba en la máquina.
-Ejemplos notables incluyen el IBM 7090 y sistemas como IBSYS.
-Tercera generación (1965-1980) - Multiprogramación y sistemas de tiempo compartido:
+- Aparición de computadoras personales (PC).
+- Sistemas operativos para uso individual, como MS-DOS y posteriormente Windows y Mac OS.
+- Ejemplo: Windows 3.0, Mac OS.
+5. Quinta Generación (1990 - Actualidad): Sistemas distribuidos y móviles
 
-Los sistemas de esta generación empezaron a ofrecer la multiprogramación, es decir, la capacidad de ejecutar varios programas simultáneamente en memoria. Esto maximizaba la utilización de la CPU, ya que mientras un proceso estaba esperando, otro podía ejecutarse.
-Surgieron los sistemas de tiempo compartido que permitían a múltiples usuarios interactuar con la computadora al mismo tiempo, utilizando terminales conectadas a un sistema central.
-El sistema operativo Multics fue pionero en esta época, y fue una base importante para el desarrollo de UNIX, que posteriormente influiría en la creación de muchos otros sistemas.
-Cuarta generación (1980-presente) - PCs, sistemas distribuidos y móviles:
+- Sistemas operativos diseñados para redes y - dispositivos móviles.
+- Soporte para computación distribuida y en la nube.
+- Énfasis en seguridad, multitarea y rendimiento.
+- Ejemplo: Linux, Android, iOS, Windows 10/11.
 
-Con la llegada de las computadoras personales (PCs), los sistemas operativos se volvieron más accesibles al público en general. Surgieron sistemas operativos como MS-DOS, Windows, Mac OS y Linux.
-Aparecieron los sistemas distribuidos, en los cuales múltiples computadoras conectadas en red colaboran para ejecutar tareas de manera conjunta, compartiendo recursos.
-En la actualidad, el desarrollo de los dispositivos móviles ha llevado a la creación de sistemas operativos optimizados para estos, como Android e iOS, que ofrecen interfaces gráficas amigables y funcionalidades específicas para dispositivos móviles.
+### Niveles de los sitemas operativos:
 
-## 1. Niveles de los sistemas operativos
-Un sistema operativo está compuesto por diferentes niveles o capas, que organizan sus funciones en un sistema jerárquico. Estos niveles incluyen:
+1. Nivel hardware:
 
-Nivel de hardware: Consiste en el equipo físico de la computadora, como la CPU, memoria, dispositivos de entrada y salida, etc. Es la base sobre la cual opera el sistema.
+- Interactúa directamente con los dispositivos físicos (CPU, memoria, discos, etc.).
+2. Nivel de núcleo o kernel:
 
-Nivel del núcleo o kernel: El kernel es el núcleo del sistema operativo y gestiona directamente los recursos de hardware. Es responsable de tareas críticas como la administración de procesos, la gestión de la memoria y el control de dispositivos de entrada y salida.
+- Es el núcleo del sistema operativo.
+Gestiona la memoria, los procesos, y el acceso al hardware.
 
-Nivel de servicios del sistema: Proporciona funciones de alto nivel que facilitan la interacción con el hardware y el kernel. Estas funciones incluyen la administración de archivos, el manejo de usuarios y la gestión de seguridad. Se encuentra entre el kernel y los programas de usuario.
+3. Nivel de servicios del sistema:
 
-Nivel de interfaz de usuario: Es la capa que interactúa directamente con el usuario, proporcionando herramientas o entornos para que los usuarios puedan ejecutar programas y realizar tareas. Puede incluir una interfaz de línea de comandos (CLI) o una interfaz gráfica de usuario (GUI).
+- Proporciona funciones como manejo de archivos, entrada/salida y comunicación entre procesos.
 
-Cada nivel tiene su propia función y es dependiente de los niveles inferiores, asegurando que los recursos de la computadora se utilicen de manera eficiente y que los usuarios puedan interactuar con el sistema de forma accesible y amigable.
+4. Nivel de interfaz de usuario:
+
+- Interacción directa con el usuario.
+Puede ser de línea de comandos (CLI) o gráfica (GUI).
